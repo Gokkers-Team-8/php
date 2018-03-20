@@ -97,11 +97,72 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html{
+    font-family: Arial;
+    color:#eff4f7;
+}
+
+.container{
+    margin: auto;
+    max-width: 60em;
+}
+
+header, a{
+    text-align: center;
+    text-decoration: none;
+    color: #eff4f7;
+    padding: 20px;
+    word-spacing: 15em;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+
+}
+.titel{
+    text-align: center;
+}
+.titel h1{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.top{
+    background-color: #3b4049;
+}
+
+.video{
+    background-color: #18b0ce;
+    padding-bottom: 30px;
 
 
+}
 
+.gokkervid video{
+    padding-left: 180px;
+}
 
+.about{
+    background-color: #0080aa;
+}
 
+.abouttxt, h2{
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.abouttxt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.download{
+    background-color: #005b7c;
+}
+.downloadh{
+    text-align: center;
+}
 
 
 
